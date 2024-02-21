@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Keyboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<div class="keyboard">
+  <button class="key" onclick="appendToInput('1')">1</button>
+  <button class="key" onclick="appendToInput('2')">2</button>
+  <button class="key" onclick="appendToInput('3')">3</button>
+  <button class="key" onclick="appendToInput('4')">4</button>
+  <button class="key" onclick="appendToInput('5')">5</button>
+  <button class="key" onclick="appendToInput('6')">6</button>
+  <button class="key" onclick="appendToInput('7')">7</button>
+  <button class="key" onclick="appendToInput('8')">8</button>
+  <button class="key" onclick="appendToInput('9')">9</button>
+  <button class="key" onclick="appendToInput('0')">0</button>
+  <button class="spacebar" onclick="capsLock()">caps lock</button>
+  <br>
+  <button class="key" onclick="appendToInput('q')">Q</button>
+  <button class="key" onclick="appendToInput('q')">W</button>
+  <button class="key" onclick="appendToInput('e')">E</button>
+  <button class="key" onclick="appendToInput('r')">R</button>
+  <button class="key" onclick="appendToInput('t')">T</button>
+  <button class="key" onclick="appendToInput('y')">Y</button>
+  <button class="key" onclick="appendToInput('u')">U</button>
+  <button class="key" onclick="appendToInput('i')">I</button>
+  <button class="key" onclick="appendToInput('o')">O</button>
+  <button class="key" onclick="appendToInput('p')">P</button>
+  <br>
+  <button class="key" onclick="appendToInput('a')">A</button>
+  <button class="key" onclick="appendToInput('s')">S</button>
+  <button class="key" onclick="appendToInput('d')">D</button>
+  <button class="key" onclick="appendToInput('f')">F</button>
+  <button class="key" onclick="appendToInput('g')">G</button>
+  <button class="key" onclick="appendToInput('h')">H</button>
+  <button class="key" onclick="appendToInput('j')">J</button>
+  <button class="key" onclick="appendToInput('k')">K</button>
+  <button class="key" onclick="appendToInput('l')">L</button>
+  <button class="key" onclick="erase('')">Del</button>
+  
+  <br>
+  <button class="key" onclick="appendToInput('z')">Z</button>
+  <button class="key" onclick="appendToInput('x')">X</button>
+  <button class="key" onclick="appendToInput('c')">C</button>
+  <button class="key" onclick="appendToInput('v')">V</button>
+  <button class="key" onclick="appendToInput('b')">B</button>
+  <button class="key" onclick="appendToInput('n')">N</button>
+  <button class="key" onclick="appendToInput('m')">M</button>
+ 
+  <button onclick="appendToInput(' ')" class="spacebar">Space</button>
+</div>
+</div>
+<div class="textarea">
+<input class="typing" type="text" id="textInput">
+</div>
+
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
